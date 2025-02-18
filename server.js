@@ -65,7 +65,7 @@ app.use('/api/enrollments', enrollmentRoutes);
 app.use(notFound)
 app.use(errorHandler)
 
-//server
+
 app.listen(process.env.PORT, () => {
     console.log(`Server running on PORT ${process.env.PORT}...`);
   }).on('error', (err) => {
